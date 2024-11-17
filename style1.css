@@ -1,0 +1,39 @@
+body{
+    font-family: Arial;
+
+}
+
+.Signup-box{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    background-color:rgb(153, 120, 120); 
+    border-radius: 3px;
+
+}
+
+h1{
+    text-align: center;
+
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+input[type="button"]{
+
+}
+
+input[type="button"]:hover{
+    color: brown;
+    background-color: white;
+}
