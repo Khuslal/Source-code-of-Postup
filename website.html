@@ -3,40 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website</title>
+    <title>Blogging Platform</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
 </head>
 <body>
-    <div class="main">
-        <div class="navbar">
-            <div class="icon">
-                <h2 class="logo">Blogging Platform</h2>
-            </div>
-
-            <div class="menu">
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">PROFILE</a></li>
-                    <li><a href="#">FEEDBACK</a></li>
-                    
-                </ul>
-            </div>
-     <body>
-            <div class="login-box">
-                <h1>Login Here</h1>
-                <form>
-                    <label>Username</label>
-                    <input type="email" name="email" placeholder="Enter Email Here">
-                    <label>Password</label>
-                    <input type="password" name="" placeholder="Enter Password Here">
-                    <input type="button" value="Submit">
-                    <p class="next"><a href="signup.html">Sign Up</a></p>
-                </form>
-            </div>
-            </body>
-
-
-        </div>
-    </div>
+    <div class="menu-bar">
+        <header>
+            <div class="logo"><h1>Blogging Platform</h1></div>
+        </header>
+    <ul>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Profile</a>
+              <div class="sub-menu-1">
+                 <ul>
+                    <li class="other-list"><a href="#">My Contents</a><i class="fa fa-angle-right"></i>
+                        <div class="sub-menu-2">
+                            <ul>
+                               <li><a href="#">Edit</a></li>
+                               <li><a href="#">Delete Post</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                 </ul>
+              </div>
+             </li>
+        <li><a href="#">Create Post</a></li>
+        <li><a href="#">Feedback</a></li>
+        <li><a href="#">Log out</a></li>
+    </ul>
+</div>
 </body>
 </html>

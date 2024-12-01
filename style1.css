@@ -3,17 +3,18 @@ body{
 
 }
 
-.Signup-box{
+.login-box{
     width: 300px;
     height: 200px;
     margin: auto;
-    background-color:rgb(153, 120, 120); 
+    background-color:green; 
     border-radius: 3px;
 
 }
 
 h1{
     text-align: center;
+    color: white;
 
 }
 
@@ -27,6 +28,7 @@ form label{
     display: flex;
     margin-top: 20px;
     font-size: 18px;
+    color: white;
 }
 
 input[type="button"]{
@@ -34,6 +36,17 @@ input[type="button"]{
 }
 
 input[type="button"]:hover{
-    color: brown;
+    color: rgb(123, 179, 123);
     background-color: white;
 }
+
+.Signup-box{
+    width: 350px;
+    height: 270px;
+    float: left;
+    margin-left:280px;
+    background-color: green;
+    border-radius: 4px;
+
+}
+
