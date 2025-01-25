@@ -1,0 +1,50 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Content Styles */
+main {
+    padding: 2rem;
+}
+
+#posts {
+    margin: 2rem 0;
+}
+
+/* Post Styles */
+.post {
+    background: #fff;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+    margin-top: 0;
+}
+
+.post p {
+    color: #555;
+}
+
+img {
+    width: calc(100% - 20%);
+    height: auto;
+    display: block;
+}
+
+/* Footer Styles */
+/* footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+} */
